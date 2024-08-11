@@ -19,5 +19,5 @@ with st.expander('Data'):
     y
 
 
-    with st.expander('Data Visulization'):
-        st.scatter_chart(data=df,x="bill_length_mm",y="body_mass_g",color="species")
+with st.expander('Data Visulization'):
+    st.scatter_chart(data=df,x="bill_length_mm",y="body_mass_g",color="species")
